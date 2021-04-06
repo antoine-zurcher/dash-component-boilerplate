@@ -42,7 +42,7 @@ if install_deps != 'True':
 
 # Create a virtual env
 if sys.version.split(' ')[0] > '3.2':
-    venv = '{} -m venv venv'.format(sys.executable)
+    venv = 'python3 -m venv venv'
 else:
     venv = 'virtualenv venv'
 
